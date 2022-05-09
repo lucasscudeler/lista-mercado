@@ -1,0 +1,16 @@
+
+<table class="tabela">
+  <tbody>
+    <tr *ngFor="let produto of produtos">
+      <td>{{produto.descricao}}</td>
+      <td *ngIf="produto.quantidade > 0">(qtd: {{produto.quantidade}})</td>
+      <td *ngIf="produto.quantidade == 0">Não disponível</td>
+      <td class="right"><fa-icon [icon] = plus></fa-icon></td>
+      <td class="right"><fa-icon [icon] = minus></fa-icon></td>
+    </tr>
+  </tbody>
+</table>
+
+
+
+

@@ -1,0 +1,28 @@
+.tabela {
+  margin: 20px 0;
+  width: 500px;
+  border-collapse: separate;
+  border-spacing: 0 15px;
+}
+
+tr {
+  border-radius: 20px;
+  height: 35px;
+  box-shadow: 0px 12px 19px -6px rgba(0,0,0,0.3);
+}
+
+td:first-child {
+  border-top-left-radius: 10px;
+  border-bottom-left-radius: 10px;
+}
+td:last-child {
+  border-bottom-right-radius: 10px;
+  border-top-right-radius: 10px;
+}
+
+td {
+  padding: 10px;
+  background-color: white;
+}
+
+
